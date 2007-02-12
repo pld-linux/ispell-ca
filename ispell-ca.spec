@@ -1,7 +1,7 @@
 Summary:	Catalan dictionary for ispell
-Summary(ca):	Diccionari catal‡ per a ispell
-Summary(es):	Diccionario catalan para ispell
-Summary(pl):	KataloÒski s≥ownik dla ispella
+Summary(ca.UTF-8):   Diccionari catal√† per a ispell
+Summary(es.UTF-8):   Diccionario catalan para ispell
+Summary(pl.UTF-8):   Katalo≈Ñski s≈Çownik dla ispella
 Name:		ispell-ca
 Version:	20041027
 Release:	1
@@ -18,14 +18,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Catalan dictionary for ispell.
 
-%description -l ca
-Diccionari catal‡ per a ispell.
+%description -l ca.UTF-8
+Diccionari catal√† per a ispell.
 
-%description -l es
+%description -l es.UTF-8
 Diccionario catalan para ispell.
 
-%description -l pl
-KataloÒski s≥ownik dla programu ispell.
+%description -l pl.UTF-8
+Katalo≈Ñski s≈Çownik dla programu ispell.
 
 %prep
 %setup -q -c -T
